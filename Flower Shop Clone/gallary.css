@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+}
+header {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(popy.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: pink;
+}
+ul{
+	float: center;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	font-size: 30px;
+}
+.rock{
+	font-size: 50px;
+}
+.pic img{
+	height:150px;
+	width: 330px;
+	margin: auto;
+}
+.logo{
+	position: absolute;
+	left: 77%;
+}
+
+
+ul{
+	float: center;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color:pink;
+	padding: 5px 20px;
+	border: 2px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color: black;
+	color: white;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.royal{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%, -40%);
+	color:pink;
+}
